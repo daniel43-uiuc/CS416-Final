@@ -38,7 +38,7 @@ top_50_streamed = spotify_songs.nlargest(50, 'Spotify Streams')[[track_name_col,
 top_50_popularity = spotify_songs.nlargest(50, 'Spotify Popularity')[[track_name_col, artist_col, 'Spotify Streams', 'YouTube Views', 'TikTok Views']]
 
 # Preprocess data for Scene 3
-top_50_playlist = spotify_songs.nlargest(50, 'Spotify Playlist Reach')[[track_name_col, artist_col, 'Spotify Playlist Count', 'Spotify Playlist Reach']]
+top_50_playlist = spotify_songs.nlargest(500, 'Spotify Playlist Reach')[[track_name_col, artist_col, 'Spotify Playlist Count', 'Spotify Playlist Reach']]
 
 # Save preprocessed data to JSON
 top_50_streamed.to_json('data/top_50_streamed.json', orient='records')

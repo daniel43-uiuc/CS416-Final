@@ -1,0 +1,402 @@
+[
+  {
+    "Track": "A Bar Song (Tipsy)",
+    "Artist": "Shaboozey",
+    "Spotify Streams": 311928522,
+    "YouTube Views": 62694868,
+    "TikTok Views": 378313942,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27380d86d636244b72a3a1eede2"
+  },
+  {
+    "Track": "Espresso",
+    "Artist": "Sabrina Carpenter",
+    "Spotify Streams": 547882871,
+    "YouTube Views": 107550212,
+    "TikTok Views": 1379499000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273659cd4673230913b3918e0d5"
+  },
+  {
+    "Track": "MILLION DOLLAR BABY",
+    "Artist": "Tommy Richman",
+    "Spotify Streams": 390470936,
+    "YouTube Views": 84274754,
+    "TikTok Views": 5332281936,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27301c0cd5da820e6128655854f"
+  },
+  {
+    "Track": "Not Like Us",
+    "Artist": "Kendrick Lamar",
+    "Spotify Streams": 323703884,
+    "YouTube Views": 116347040,
+    "TikTok Views": 208339025,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2731ea0c62b2339cbf493a999ad"
+  },
+  {
+    "Track": "i like the way you kiss me",
+    "Artist": "Artemas",
+    "Spotify Streams": 601309283,
+    "YouTube Views": 122599116,
+    "TikTok Views": 3369120610,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273e67611dbbf69a90d0b6cb738"
+  },
+  {
+    "Track": "Gata Only",
+    "Artist": "FloyyMenor, Cris Mj",
+    "Spotify Streams": 675079153,
+    "YouTube Views": 228382568,
+    "TikTok Views": 3804584163,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273c4583f3ad76630879a75450a"
+  },
+  {
+    "Track": "LUNCH",
+    "Artist": "Billie Eilish",
+    "Spotify Streams": 221636195,
+    "YouTube Views": 40022524,
+    "TikTok Views": 360017000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+  },
+  {
+    "Track": "BIRDS OF A FEATHER",
+    "Artist": "Billie Eilish",
+    "Spotify Streams": 214237645,
+    "YouTube Views": 11033725,
+    "TikTok Views": 443104700,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+  },
+  {
+    "Track": "I Had Some Help (feat. Morgan Wallen)",
+    "Artist": "Post Malone, Morgan Wallen",
+    "Spotify Streams": 250080413,
+    "YouTube Views": 32229063,
+    "TikTok Views": 2100000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27397306976e3eb8aad53b754eb"
+  },
+  {
+    "Track": "CHIHIRO",
+    "Artist": "Billie Eilish",
+    "Spotify Streams": 169410711,
+    "YouTube Views": 19402457,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+  },
+  {
+    "Track": "Tell Ur Girlfriend",
+    "Artist": "Lay Bankz",
+    "Spotify Streams": 167431139,
+    "YouTube Views": 28987197,
+    "TikTok Views": 235871001,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273a8dbff429bc95d3af651fe08"
+  },
+  {
+    "Track": "End of Beginning",
+    "Artist": "Djo",
+    "Spotify Streams": 710784872,
+    "YouTube Views": 44322144,
+    "TikTok Views": 1027806256,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273fddfffec51b4580acae727c1"
+  },
+  {
+    "Track": "Fortnight (feat. Post Malone)",
+    "Artist": "Taylor Swift, Post Malone",
+    "Spotify Streams": 395433400,
+    "YouTube Views": 104673836,
+    "TikTok Views": 207317000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33"
+  },
+  {
+    "Track": "Houdini",
+    "Artist": "Eminem",
+    "Spotify Streams": 107034922,
+    "YouTube Views": 77373957,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273810603c94c9246379604cf1a"
+  },
+  {
+    "Track": "Like That",
+    "Artist": "Future, Metro Boomin, Kendrick Lamar",
+    "Spotify Streams": 355186436,
+    "YouTube Views": 98081493,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273a46b07c291e6dfdee13b3ee8"
+  },
+  {
+    "Track": "Cruel Summer",
+    "Artist": "Taylor Swift",
+    "Spotify Streams": 2188247133,
+    "YouTube Views": 342388433,
+    "TikTok Views": 4967025679,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647"
+  },
+  {
+    "Track": "greedy",
+    "Artist": "Tate McRae",
+    "Spotify Streams": 1258569694,
+    "YouTube Views": 141646818,
+    "TikTok Views": 5456156211,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27322fd802bc61db666c7c81aa8"
+  },
+  {
+    "Track": "As It Was",
+    "Artist": "Harry Styles",
+    "Spotify Streams": 3301814535,
+    "YouTube Views": 800899315,
+    "TikTok Views": 15405881843,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+  },
+  {
+    "Track": "we can't be friends (wait for your love)",
+    "Artist": "Ariana Grande",
+    "Spotify Streams": 591068364,
+    "YouTube Views": 156882014,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273c5bce200a907e3b21bf20587"
+  },
+  {
+    "Track": "Lose Control",
+    "Artist": "Teddy Swims",
+    "Spotify Streams": 775135157,
+    "YouTube Views": 139180960,
+    "TikTok Views": 597513595,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2731a0323cc23419360a34a3ace"
+  },
+  {
+    "Track": "Saturn",
+    "Artist": "SZA",
+    "Spotify Streams": 343090427,
+    "YouTube Views": 38173339,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273d70916ee9e40c90380ba5f07"
+  },
+  {
+    "Track": "Stargazing",
+    "Artist": "Myles Smith",
+    "Spotify Streams": 106599323,
+    "YouTube Views": 10331471,
+    "TikTok Views": 4700000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27381b12e1a0584e8ea7ba2ae4a"
+  },
+  {
+    "Track": "Whatever She Wants",
+    "Artist": "Bryson Tiller",
+    "Spotify Streams": 207093873,
+    "YouTube Views": 19787472,
+    "TikTok Views": 298300000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2731aba7b448d35bd576ceac182"
+  },
+  {
+    "Track": "Austin",
+    "Artist": "Dasha",
+    "Spotify Streams": 273023490,
+    "YouTube Views": 28916868,
+    "TikTok Views": 2850135008,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2734ccf88b66e04cfd247f287eb"
+  },
+  {
+    "Track": "WILDFLOWER",
+    "Artist": "Billie Eilish",
+    "Spotify Streams": 100838516,
+    "YouTube Views": 6390843,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+  },
+  {
+    "Track": "Good Luck, Babe!",
+    "Artist": "Chappell Roan",
+    "Spotify Streams": 176290078,
+    "YouTube Views": 6018651,
+    "TikTok Views": 263955300,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27391b4bc7c88d91a42e0f3a8b7"
+  },
+  {
+    "Track": "Belong Together",
+    "Artist": "Mark Ambor",
+    "Spotify Streams": 233969547,
+    "YouTube Views": 15918146,
+    "TikTok Views": 7383118,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273ed71b8008aaa879622f8c3b5"
+  },
+  {
+    "Track": "BITTERSUITE",
+    "Artist": "Billie Eilish",
+    "Spotify Streams": 58810212,
+    "YouTube Views": null,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+  },
+  {
+    "Track": "One Of The Girls (with JENNIE, Lily Rose Depp)",
+    "Artist": "The Weeknd, JENNIE, Lily-Rose Depp",
+    "Spotify Streams": 939627795,
+    "YouTube Views": 371522364,
+    "TikTok Views": 265186570,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273b0dd6a5cd1dec96c4119c262"
+  },
+  {
+    "Track": "So High School",
+    "Artist": "Taylor Swift",
+    "Spotify Streams": 97601615,
+    "YouTube Views": 5528058,
+    "TikTok Views": 17893741,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2738ecc33f195df6aa257c39eaa"
+  },
+  {
+    "Track": "Beautiful Things",
+    "Artist": "Benson Boone",
+    "Spotify Streams": 900158751,
+    "YouTube Views": 308723145,
+    "TikTok Views": 534915313,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273cc04ff3e70e146ba9abacf40"
+  },
+  {
+    "Track": "BAND4BAND (feat. Lil Baby)",
+    "Artist": "Central Cee, Lil Baby",
+    "Spotify Streams": 90676573,
+    "YouTube Views": 32735244,
+    "TikTok Views": 974656200,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2737b588bf0555bde606f8b27c7"
+  },
+  {
+    "Track": "BLUE",
+    "Artist": "Billie Eilish",
+    "Spotify Streams": 91272461,
+    "YouTube Views": 16038053,
+    "TikTok Views": 1225345800,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+  },
+  {
+    "Track": "TEXAS HOLD 'EM",
+    "Artist": "Beyoncé",
+    "Spotify Streams": 426700979,
+    "YouTube Views": 35724356,
+    "TikTok Views": 6518604175,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599"
+  },
+  {
+    "Track": "My Love Mine All Mine",
+    "Artist": "Mitski",
+    "Spotify Streams": 997702304,
+    "YouTube Views": 48093111,
+    "TikTok Views": 5469808282,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27334f21d3047d85440dfa37f10"
+  },
+  {
+    "Track": "euphoria",
+    "Artist": "Kendrick Lamar",
+    "Spotify Streams": 168434320,
+    "YouTube Views": 53604746,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2737587213b1be294ac4000f648"
+  },
+  {
+    "Track": "Magnetic",
+    "Artist": "ILLIT",
+    "Spotify Streams": 255076355,
+    "YouTube Views": 202206901,
+    "TikTok Views": 506476590,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273f037c5fb9de6c78726cb8e2c"
+  },
+  {
+    "Track": "BELLAKEO",
+    "Artist": "Peso Pluma, Anitta",
+    "Spotify Streams": 359803580,
+    "YouTube Views": 369321334,
+    "TikTok Views": 874056250,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2736601556a0f7c0b54ded13c9d"
+  },
+  {
+    "Track": "FE!N",
+    "Artist": "Travis Scott, Playboi Carti",
+    "Spotify Streams": 659010786,
+    "YouTube Views": 125203447,
+    "TikTok Views": 107398826,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273881d8d8378cd01099babcd44"
+  },
+  {
+    "Track": "Family Matters",
+    "Artist": "Drake",
+    "Spotify Streams": 72335127,
+    "YouTube Views": 41492122,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273a0ac23f4b446a7264e67bf0e"
+  },
+  {
+    "Track": "LUNA",
+    "Artist": "Feid, ATL Jacob",
+    "Spotify Streams": 606124553,
+    "YouTube Views": 166363445,
+    "TikTok Views": 29601244,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273f1aad814a40ec7419c234242"
+  },
+  {
+    "Track": "Stick Season",
+    "Artist": "Noah Kahan",
+    "Spotify Streams": 965865213,
+    "YouTube Views": 89431811,
+    "TikTok Views": 275016537,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2736ee35072df1af802cca09918"
+  },
+  {
+    "Track": "I Wanna Be Yours",
+    "Artist": "Arctic Monkeys",
+    "Spotify Streams": 2185240293,
+    "YouTube Views": 109538379,
+    "TikTok Views": 105020737,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163"
+  },
+  {
+    "Track": "Flowers",
+    "Artist": "Miley Cyrus",
+    "Spotify Streams": 2031280633,
+    "YouTube Views": 1096100899,
+    "TikTok Views": 14603725994,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273cd222052a2594be29a6616b5"
+  },
+  {
+    "Track": "Pedro",
+    "Artist": "Jaxomy, Agatino Romero, Raffaella Carrà",
+    "Spotify Streams": 168145583,
+    "YouTube Views": 35008949,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273df8680015ddf76e5c444849f"
+  },
+  {
+    "Track": "Too Sweet",
+    "Artist": "Hozier",
+    "Spotify Streams": 532012790,
+    "YouTube Views": 13119247,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2732e8b4358d044b75807e30bf0"
+  },
+  {
+    "Track": "Si No Quieres No",
+    "Artist": "Luis R Conriquez, Neton Vega",
+    "Spotify Streams": 158131138,
+    "YouTube Views": 135893150,
+    "TikTok Views": 147200,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b2735c7365ca8cfaf7d80136c656"
+  },
+  {
+    "Track": "Slow It Down",
+    "Artist": "Benson Boone",
+    "Spotify Streams": 202667139,
+    "YouTube Views": 25188125,
+    "TikTok Views": 3500000,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273cc04ff3e70e146ba9abacf40"
+  },
+  {
+    "Track": "Standing Next to You",
+    "Artist": "Jung Kook",
+    "Spotify Streams": 675865902,
+    "YouTube Views": 130563278,
+    "TikTok Views": 628043802,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b273741fd4807f442af3f7359316"
+  },
+  {
+    "Track": "Lï¿½ï¿½ï¿½AMOUR DE ",
+    "Artist": "Jean-François Dandrieu, Pieter-Jan Belder",
+    "Spotify Streams": 84575291,
+    "YouTube Views": 11080040,
+    "TikTok Views": null,
+    "Album Cover": "https://i.scdn.co/image/ab67616d0000b27306ff51b5ffbf2a598e0e7754"
+  }
+]
