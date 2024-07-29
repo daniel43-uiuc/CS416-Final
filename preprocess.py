@@ -1,30 +1,46 @@
 import pandas as pd
 
-# Load datasets
-movies_total_gross = pd.read_csv('./data/disney_movies_total_gross.csv')
-revenue_1991_2016 = pd.read_csv('./data/disney_revenue_1991-2016.csv')
-characters = pd.read_csv('./data/disney-characters.csv')
-directors = pd.read_csv('./data/disney-director.csv')
-voice_actors = pd.read_csv('./data/disney-voice-actors.csv')
+# Try reading the file with different encodings
+encodings = ['utf-8', 'latin1', 'ISO-8859-1']
 
-# Rename columns to have a consistent 'movie_title' column for merging
-movies_total_gross.rename(columns={'movie': 'movie_title'}, inplace=True)
-directors.rename(columns={'name': 'movie_title'}, inplace=True)
-voice_actors.rename(columns={'movie': 'movie_title'}, inplace=True)
+for enc in encodings:
+    try:
+        spotify_songs = pd.read_csv('data/Most Streamed Spotify Songs 2024.csv', encoding=enc)
+        print(f'Successfully read the file with {enc} encoding')
+        break
+    except UnicodeDecodeError:
+        print(f'Failed to read the file with {enc} encoding')
+        continue
+else:
+    raise ValueError('Failed to read the file with all tried encodings')
 
-# Merge datasets
-movies_directors = pd.merge(movies_total_gross, directors, on="movie_title", how="left")
-movies_full = pd.merge(movies_directors, voice_actors, on="movie_title", how="left")
+# Display the column names of the dataset to understand its structure
+print(spotify_songs.columns)
 
-# Clean data (handle missing values, duplicates, etc.)
-movies_full = movies_full.drop_duplicates().fillna("Unknown")
+# Ensure numeric columns are treated as strings before conversion
+numeric_columns = ['Spotify Streams', 'Spotify Popularity', 'YouTube Views', 'TikTok Views', 'Spotify Playlist Count', 'Spotify Playlist Reach']
+for col in numeric_columns:
+    spotify_songs[col] = spotify_songs[col].astype(str).str.replace(',', '').str.replace(' ', '')
 
-# Convert to JSON
-movies_full_json = movies_full.to_json(orient='records')
+# Convert numeric columns to numeric types
+for col in numeric_columns:
+    spotify_songs[col] = pd.to_numeric(spotify_songs[col], errors='coerce')
 
-# Save JSON file
-with open('./data/movies_full.json', 'w') as f:
-    f.write(movies_full_json)
+# Adjust column names based on actual columns
+track_name_col = 'Track'  # Adjust if needed
+artist_col = 'Artist'          # Adjust if needed
+release_date_col = 'Release Date'  # Adjust if needed
 
-# Display the JSON data to verify
-print(movies_full_json[:500])  # Print the first 500 characters of the JSON data for verification
+# Preprocess data for Scene 1
+top_50_streamed = spotify_songs.nlargest(50, 'Spotify Streams')[[track_name_col, artist_col, release_date_col, 'Spotify Streams']]
+
+# Preprocess data for Scene 2
+top_50_popularity = spotify_songs.nlargest(50, 'Spotify Popularity')[[track_name_col, artist_col, 'Spotify Streams', 'YouTube Views', 'TikTok Views']]
+
+# Preprocess data for Scene 3
+top_50_playlist = spotify_songs.nlargest(50, 'Spotify Playlist Reach')[[track_name_col, artist_col, 'Spotify Playlist Count', 'Spotify Playlist Reach']]
+
+# Save preprocessed data to JSON
+top_50_streamed.to_json('data/top_50_streamed.json', orient='records')
+top_50_popularity.to_json('data/top_50_popularity.json', orient='records')
+top_50_playlist.to_json('data/top_50_playlist.json', orient='records')

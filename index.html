@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <title>Disney Movies Narrative Visualization</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div id="navbar">
+        <button class="nav-button" data-scene="1">Top 50 Streamed Songs</button>
+        <button class="nav-button" data-scene="2">Popularity Across Platforms</button>
+        <button class="nav-button" data-scene="3">Playlist Reach and Count</button>
+    </div>
     <div id="visualization">
         <div id="scene1" class="scene"></div>
         <div id="scene2" class="scene"></div>
         <div id="scene3" class="scene"></div>
     </div>
     <button id="nextButton">Next</button>
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
